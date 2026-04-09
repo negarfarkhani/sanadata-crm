@@ -20,7 +20,7 @@ export default function App() {
           <Route path="/crm" element={<CRMDashboard />} />
           <Route path="/accounting" element={<AccountingDashboard />} />
           <Route path="/integrations" element={<IntegrationsDashboard />} />
-          <Route path="/settings" element={<div className="p-8 text-center text-gray-500">Settings Page (Coming Soon)</div>} />
+          <Route path="/settings" element={<div className="p-8 text-center text-gray-500">صفحه تنظیمات (به زودی)</div>} />
         </Routes>
       </DashboardLayout>
       <Toaster position="top-right" />
